@@ -30,5 +30,11 @@ elif (Number1 == Number3) and (Number1 > Number2):
     print ("Two Numbers are equall and the largest")
 elif (Number1 == Number2) and (Number1 > Number3):
     print ("two numbers are equal and the largest")
+elif (Number2 == Number3) and (Number2 < Number1):
+    print ("Two Numbers are equall and the smallest")
+elif (Number1 == Number3) and (Number1 < Number2):
+    print ("Two Numbers are equall and the smallest")
+elif (Number1 == Number2) and (Number1 < Number3):
+    print ("two numbers are equal and the smallest")
 else:
     print("none of the numbers entered are equal")
