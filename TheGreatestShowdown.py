@@ -12,7 +12,7 @@ else:
 
 # Task 2: identify the Smallest
 
-if (Number1 >= Number2) and (Number1 <= Number3):
+if (Number1 <= Number2) and (Number1 <= Number3):
     print (f"{Number1} is the smallest number")
 elif (Number2 <= Number3) and (Number2 <= Number1):
     print (f"{Number2} is the smallest number")
