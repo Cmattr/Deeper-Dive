@@ -1,40 +1,40 @@
 # Task 1: Identify the Greatest
-Number1 = int(input("input your first number"))
-Number2 = int(input("input your second number"))
-Number3 = int(input("input your third number"))
+number1 = int(input("input your first number"))
+number2 = int(input("input your second number"))
+number3 = int(input("input your third number"))
 
-if (Number1 >= Number2) and (Number1 >= Number3):
-    print (f"{Number1} is the largest number")
-elif (Number2 >= Number1) and (Number2 >= Number3):
-    print (f"{Number2} is the largest number")
+if (number1 >= number2) and (number1 >= number3):
+    print (f"{number1} is the largest number")
+elif (number2 >= number1) and (number2 >= number3):
+    print (f"{number2} is the largest number")
 else: 
-    print(f"{Number3} is the largest number")
+    print(f"{number3} is the largest number")
 
 # Task 2: identify the Smallest
 
-if (Number1 <= Number2) and (Number1 <= Number3):
-    print (f"{Number1} is the smallest number")
-elif (Number2 <= Number3) and (Number2 <= Number1):
-    print (f"{Number2} is the smallest number")
+if (number1 <= number2) and (number1 <= number3):
+    print (f"{number1} is the smallest number")
+elif (number2 <= number3) and (number2 <= number1):
+    print (f"{number2} is the smallest number")
 else: 
-    print(f"{Number3} is the smallest number")
+    print(f"{number3} is the smallest number")
 
 
 # Task 3: Equality Check
     
-if (Number1 == Number2) and (Number1 == Number3):
+if (number1 == number2) and (number1 == number3):
     print ("all numbers are equall")
-elif (Number2 == Number3) and (Number2 > Number1):
+elif (number2 == number3) and (number2 > number1):
     print ("Two Numbers are equall and the largest")
-elif (Number1 == Number3) and (Number1 > Number2):
+elif (number1 == number3) and (number1 > number2):
     print ("Two Numbers are equall and the largest")
-elif (Number1 == Number2) and (Number1 > Number3):
+elif (number1 == number2) and (number1 > number3):
     print ("two numbers are equal and the largest")
-elif (Number2 == Number3) and (Number2 < Number1):
+elif (number2 == number3) and (number2 < number1):
     print ("Two Numbers are equall and the smallest")
-elif (Number1 == Number3) and (Number1 < Number2):
+elif (number1 == number3) and (number1 < number2):
     print ("Two Numbers are equall and the smallest")
-elif (Number1 == Number2) and (Number1 < Number3):
+elif (number1 == number2) and (number1 < number3):
     print ("two numbers are equal and the smallest")
 else:
     print("none of the numbers entered are equal")
