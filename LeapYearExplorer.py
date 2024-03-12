@@ -10,7 +10,7 @@ else:
 
 # Task 2: Century Varification
     
-Century = year // 100 +1
+century = year // 100 +1
 print (f"{year} is in the {Century} century")
 
 # Task 3: Time Traveler
